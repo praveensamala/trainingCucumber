@@ -27,9 +27,9 @@ public class testcasesteps
 		driver.findElement(By.id("pass")).sendKeys("passwordtestpass");
 	}
 	
-	@Then("^user should be able to login successfully$")
+	/*@Then("^user should be able to login successfully$")
 	public void verifyApplication() {
 		driver.findElement(By.id("loginbutton")).click();
 		driver.quit();
-	}
+	}*/
 }
